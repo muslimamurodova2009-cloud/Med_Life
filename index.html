@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MEDLIFE — salomatlik, birinchi yordam va sog'lom turmush tarzi haqida foydali ma'lumotlar.">
+    <title>MEDLIFE | Salomatlik sari</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">
+            <h2>
+                <span class="logo-icon"><i class="fa-solid fa-heart-pulse"></i></span>
+                MEDLIFE
+            </h2>
+            <button type="button" id="btn" aria-label="Menyuni ochish">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <div class="nav2" id="nav2">
+            <ul>
+                <li><a href="#hero" class="nav-link active">BOSH SAHIFA</a></li>
+                <li><a href="#about" class="nav-link">BIZ HAQIMIZDA</a></li>
+                <li><a href="#first-aid" class="nav-link">BIRINCHI YORDAM</a></li>
+                <li><a href="#health-tips" class="nav-link">SALOMATLIK</a></li>
+                <li><a href="#contact" class="nav-link">BOG'LANISH</a></li>
+            </ul>
+
+            <a href="#first-aid" class="nav-btn">
+                Yordam olish <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO / SLIDER -->
+    <section class="hero" id="hero">
+        <div class="slider">
+
+            <div class="card active" style="background-image: url('./img/medical1.jpg');">
+                <div class="content">
+                    <span>01 / SALOMATLIK</span>
+                    <h1>Sog'lom hayot <br>sari qadam</h1>
+                    <p>
+                        Sog'lom kelajak uchun bugundan
+                        o'z salomatligingizga e'tibor qarating.
+                    </p>
+                    <button type="button">BATAFSIL</button>
+                </div>
+            </div>
+
+            <div class="card" style="background-image: url('./img/medical2.jpg');">
+                <div class="content">
+                    <span>02 / ZAMONAVIY TIBBIYOT</span>
+                    <h1>Kelajak tibbiyoti<br>bugundan boshlanadi</h1>
+                    <p>
+                        Yangi texnologiyalar va zamonaviy
+                        diagnostika imkoniyatlari bilan tanishing.
+                    </p>
+                    <button type="button">BATAFSIL</button>
+                </div>
+            </div>
+
+            <div class="card" style="background-image: url('./img/medical3.avif');">
+                <div class="content">
+                    <span>03 / PROFILAKTIKA</span>
+                    <h1>Kasallikdan himoyalanish<br>o'z qo'lingizda</h1>
+                    <p>
+                        Kasalliklarning oldini olish va sog'lom
+                        turmush tarzini shakllantirish haqida bilib oling.
+                    </p>
+                    <button type="button">BATAFSIL</button>
+                </div>
+            </div>
+
+            <div class="slider-buttons">
+                <button type="button" id="chapga" aria-label="Oldingi slayd">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button type="button" id="ongga" aria-label="Keyingi slayd">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+
+            <div class="slider-lines">
+                <div class="line active"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- YUQORIGA QAYTISH -->
+    <button type="button" id="topBtn" title="Yuqoriga qaytish" aria-label="Yuqoriga qaytish">
+        <i class="fa-solid fa-up-long"></i>
+    </button>
+
+    <!-- BIZ HAQIMIZDA -->
+    <section class="about" id="about">
+
+        <div class="about-header">
+            <h1>Biz haqimizda</h1>
+            <p>
+                Salomatlik — baxtli hayot asosi.
+                Biz insonlarga tibbiyot olamidagi
+                foydali bilimlar va maslahatlarni taqdim etamiz.
+            </p>
+
+            <div class="breadcrumb">
+                <a href="#hero">
+                    <i class="fa-solid fa-house"></i> Bosh sahifa
+                </a>
+                <i class="fa-solid fa-chevron-right"></i>
+                <span>Biz haqimizda</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="rasm">
+                <img src="./img/imedical4.jpg" alt="Tibbiyot va salomatlik">
+            </div>
+
+            <div class="matn">
+                <span class="about-label">
+                    <i class="fa-solid fa-heart"></i>
+                    MEDLIFE haqida
+                </span>
+
+                <div class="about-text">
+                    <h3>Bilim — salomatlik sari birinchi qadam.</h3>
+
+                    <p>
+                        MEDLIFE — insonlarga sog'liq, kasalliklarning oldini olish,
+                        birinchi yordam va sog'lom turmush tarzi haqida
+                        ma'lumot berishga mo'ljallangan platforma.
+                    </p>
+
+                    <p>
+                        Har bir inson o'z salomatligiga e'tiborli bo'lishi,
+                        muhim vaziyatlarda to'g'ri qaror qabul qilishi
+                        va kerakli ma'lumotlarni bilishi muhim.
+                    </p>
+
+                    <div class="about-points">
+                        <div><i class="fa-solid fa-circle-check"></i> Tushunarli ma'lumotlar</div>
+                        <div><i class="fa-solid fa-circle-check"></i> Foydali tavsiyalar</div>
+                        <div><i class="fa-solid fa-circle-check"></i> Birinchi yordam bo'yicha bilimlar</div>
+                    </div>
+
+                    <div class="about-buttons">
+                        <a href="#first-aid" class="btn-primary">
+                            Ko'proq bilish <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <button type="button" class="video-btn" id="openVideo">
+                            <i class="fa-solid fa-circle-play"></i>
+                            Videoni ko'rish
+                        </button>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="features" id="maqsad">
+            <div class="feature-card">
+                <i class="fa-solid fa-heart-pulse"></i>
+                <div>
+                    <h3>Salomatlik</h3>
+                    <p>Sog'lom hayot uchun.</p>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <i class="fa-solid fa-shield-halved"></i>
+                <div>
+                    <h3>Ishonch</h3>
+                    <p>Har doim siz bilan.</p>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <i class="fa-solid fa-book-open"></i>
+                <div>
+                    <h3>Bilim</h3>
+                    <p>To'g'ri ma'lumot — sog'lom hayot kaliti.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- VIDEO OYNA -->
+ <div class="video-modal" id="videoModal" hidden>
+    <div class="video-box">
+        <button type="button" class="close-video" id="closeVideo">
+            &times;
+        </button>
+
+        <h3>MEDLIFE — biz haqimizda</h3>
+
+        <iframe id="aboutVideo"
+        src="./video/med.mp4"
+        title="YouTube video player"
+        frameborder="0"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+        </iframe>
+
+    </div>
+ </div>
+
+    <!-- BIRINCHI YORDAM -->
+    <section class="first-aid" id="first-aid">
+
+        <div class="section_heading">
+            <span class="eyebrow">Birinchi yordam</span>
+            <h2>To'g'ri yordam <br><span>hayotni saqlaydi.</span></h2>
+            <p>
+                Favqulodda holatlarda nima qilish kerakligini
+                oldindan bilib oling.
+            </p>
+        </div>
+
+        <div class="aid-grid">
+
+            <article class="aid-card">
+                <div class="aid-img">
+                    <img src="./img/medical6.avif" alt="Kuyish holati">
+
+      <span class="aid-number">01</span>
+                </div>
+                <div class="aid-content">
+                    <span class="aid-tag">TERI SHIKASTLANISHI</span>
+                    <h3>Kuyganda</h3>
+                    <p>Kuyish holatida birinchi navbatda qanday yordam ko'rsatish kerak?</p>
+                    <button type="button" class="read-more">
+                        Batafsil <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="aid-card">
+                <div class="aid-img">
+                    <img src="./img/medical_9.jpg" alt="Qon ketishi holati">
+                    <span class="aid-number">02</span>
+                </div>
+                <div class="aid-content">
+                    <span class="aid-tag">QON KETISHI</span>
+                    <h3>Qon ketganda</h3>
+                    <p>Qon ketishini vaqtincha to'xtatish va xavfsiz yordam ko'rsatish.</p>
+                    <button type="button" class="read-more">
+                        Batafsil <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="aid-card">
+                <div class="aid-img">
+                    <img src="./img/medical7.jpg" alt="Hushdan ketish holati">
+                    <span class="aid-number">03</span>
+                </div>
+                <div class="aid-content">
+                    <span class="aid-tag">HUSH</span>
+                    <h3>Hushdan ketganda</h3>
+                    <p>Hushini yo'qotgan odamga xavfsiz yordam berish usullari.</p>
+                    <button type="button" class="read-more">
+                        Batafsil <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="aid-card">
+                <div class="aid-img">
+                    <img src="./img/medical_8.avif" alt="Bo'g'ilish holati">
+                    <span class="aid-number">04</span>
+                </div>
+                <div class="aid-content">
+                    <span class="aid-tag">BO'G'ILISH</span>
+                    <h3>Bo'g'ilish holatida</h3>
+                    <p>Nafas yo'li to'silganda nima qilish kerak?</p>
+                    <button type="button" class="read-more">
+                        Batafsil <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="aid-card">
+                <div class="aid-img">
+                    <img src="./img/medical_11.jpg" alt="Yurak-o'pka reanimatsiyasi">
+                    <span class="aid-number">05</span>
+                </div>
+                <div class="aid-content">
+                    <span class="aid-tag">YURAK-O'PKA REANIMATSIYASI</span>
+                    <h3>Birinchi yordam</h3>
+                    <p>Yurak va nafas to'xtaganda birinchi yordam.</p>
+                    <button type="button" class="read-more">
+                        Batafsil <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </article>
+
+            <article class="aid-card">
+                <div class="aid-img">
+                    <!-- Bu yerga o'zingdagi oltinchi rasm fayl nomini yoz -->
+                    <img src="./img/medical_10.jpg" alt="Profilaktik tibbiy ko'rik">
+                    <span class="aid-number">06</span>
+                </div>
+                <div class="aid-content">
+                    <span class="aid-tag">PROFILAKTIKA</span>
+                    <h3>Tekshiruvlarni unutmang!</h3>
+                    <p>Shifokor tavsiya qilgan profilaktik ko'riklardan o'z vaqtida o'ting.</p>
+                    <button type="button" class="read-more">
+                        Batafsil <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- SALOMATLIK MASLAHATLARI -->
+    <section class="health-tips" id="health-tips">
+
+        <div class="health-heading">
+            <span class="eyebrow">Sog'lom hayot sari</span>
+            <h2>Salomatligingiz — <span>eng katta boyligingiz</span></h2>
+            <p>
+                Har kuni sog'lig'ingiz uchun kichik qadamlar tashlang.
+                Quyidagi foydali tavsiyalar bilan tanishing.
+            </p>
+        </div>
+
+        <div class="health-grid">
+
+            <article class="health-card">
+                <div class="health-icon"><i class="fa-solid fa-apple-whole"></i></div>
+                <span>01 / OVQATLANISH</span>
+                <h3>Sog'lom ovqatlanish</h3>
+                <p>Meva, sabzavot va foydali oziq-ovqatlarni kundalik ratsioningizga qo'shing.</p>
+            </article>
+
+            <article class="health-card">
+                <div class="health-icon"><i class="fa-solid fa-droplet"></i></div>
+                <span>02 / SUV ISTE'MOLI</span>
+                <h3>Yetarli suv iching</h3>
+                <p>Organizmning normal faoliyati uchun kun davomida yetarli miqdorda suv iching.</p>
+            </article>
+
+            <article class="health-card">
+                <div class="health-icon"><i class="fa-solid fa-moon"></i></div>
+                <span>03 / UYQU</span>
+                <h3>Sifatli uyqu</h3>
+                <p>Muntazam uyqu tartibi va yetarli dam olish salomatlik uchun muhim.</p>
+            </article>
+
+            <article class="health-card">
+                <div class="health-icon"><i class="fa-solid fa-person-walking"></i></div>
+                <span>04 / FAOL HAYOT</span>
+                <h3>Ko'proq harakat qiling</h3>
+                <p>Kundalik yurish va jismoniy mashqlar tanangizni faol saqlashga yordam beradi.</p>
+            </article>
+
+            <article class="health-card">
+                <div class="health-icon"><i class="fa-solid fa-brain"></i></div>
+                <span>05 / RUHIY SALOMATLIK</span>
+                <h3>Ruhiy xotirjamlik</h3>
+                <p>Dam olish, yaqinlar bilan muloqot va stressni boshqarishga e'tibor bering.</p>
+            </article>
+
+            <article class="health-card">
+                <div class="health-icon"><i class="fa-solid fa-stethoscope"></i></div>
+                <span>06 / PROFILAKTIKA</span>
+                <h3>Vaqtida tekshiruvdan o'ting</h3>
+                <p>Sog'lig'ingizni nazorat qilish uchun shifokor tavsiya qilgan ko'riklardan o'ting.</p>
+            </article>
+
+        </div>
+
+        <div class="health-note">
+            <i class="fa-solid fa-heart-pulse"></i>
+            <p>
+                Eslatma: Ushbu tavsiyalar umumiy ma'lumot uchun.
+                Sog'liq bilan bog'liq muammolarda shifokorga murojaat qiling.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- BOG'LANISH -->
+    <section class="contact" id="contact">
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+                <span class="eyebrow">Biz bilan bog'laning</span>
+                <h2>Sizning fikringiz <br><span>biz uchun muhim</span></h2>
+                <p>
+                    Savollaringiz, takliflaringiz yoki fikrlaringiz bo'lsa,
+                    bizga yozishingiz mumkin.
+                </p>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fa-solid fa-heart-pulse"></i>
+                </div>
+                <div>
+                    <strong>MEDLIFE</strong>
+                    <span>Sog'lom hayot sari</span>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div>
+                    <strong>Elektron pochta</strong>
+                    <span>info@medlife.uz</span>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contact-form">
+                <h3>Bizga xabar yuboring.</h3>
+                <label for="name">Ismingiz</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Ismingizni kiriting"
+                    required
+                >
+
+                <label for="email">Elektron pochta</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="example@gmail.com"
+                    required
+                >
+
+                <label for="message">Xabaringiz</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Xabaringizni yozing..."
+                    required
+                ></textarea>
+
+                <button type="submit" class="form-btn">
+                    Xabar yuborish <i class="fa-solid fa-paper-plane"></i>
+                </button>
+
+                <p class="form-message" id="formMessage"></p>
+            </form>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-about">
+            <a href="#hero" class="footer-logo">
+                <i class="fa-solid fa-heart-pulse"></i>
+                MED<span>LIFE</span>
+            </a>
+
+            <p>
+                MEDLIFE — sog'lom hayot sari birinchi qadam.
+                Biz sizga salomatlik, birinchi yordam va
+                sog'lom turmush tarzi haqida foydali
+                ma'lumotlarni taqdim etamiz.
+            </p>
+
+            <div class="footer-social">
+                <a href="#" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-links">
+            <h3>Tezkor havolalar</h3>
+            <a href="#hero">Bosh sahifa</a>
+            <a href="#about">Biz haqimizda</a>
+            <a href="#first-aid">Birinchi yordam</a>
+            <a href="#health-tips">Salomatlik</a>
+            <a href="#contact">Bog'lanish</a>
+        </div>
+
+        <div class="footer-links">
+            <h3>Foydali bo'limlar</h3>
+            <a href="#first-aid">Favqulodda holatlar</a>
+            <a href="#health-tips">Sog'lom ovqatlanish</a>
+            <a href="#health-tips">Jismoniy faollik</a>
+            <a href="#health-tips">Profilaktika</a>
+        </div>
+
+        <div class="footer-contact">
+            <h3>Biz bilan bog'laning</h3>
+            <p><i class="fa-solid fa-envelope"></i> info@medlife.uz</p>
+            <p><i class="fa-solid fa-heart-pulse"></i> Sog'lom hayot sari</p>
+            <a href="#contact" class="footer-button">
+                Bizga yozing <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 MEDLIFE. Barcha huquqlar himoyalangan.</p>
+        <a href="#hero">Yuqoriga qaytish ↑</a>
+    </div>
+</footer>
+
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
